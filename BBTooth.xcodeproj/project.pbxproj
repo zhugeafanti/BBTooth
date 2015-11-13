@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C88CAB0C58A0C0984733014 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0F66BD3C5390585FC41C56 /* libPods.a */; };
+		CF7872FF1BF5F30000A7F25D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7872FE1BF5F30000A7F25D /* main.m */; };
+		CF7873021BF5F30000A7F25D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7873011BF5F30000A7F25D /* AppDelegate.m */; };
+		CF7873051BF5F30000A7F25D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7873041BF5F30000A7F25D /* ViewController.m */; };
+		CF7873081BF5F30000A7F25D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7873061BF5F30000A7F25D /* Main.storyboard */; };
+		CF78730A1BF5F30000A7F25D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7873091BF5F30000A7F25D /* Assets.xcassets */; };
+		CF78730D1BF5F30000A7F25D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF78730B1BF5F30000A7F25D /* LaunchScreen.storyboard */; };
+		CF7873181BF5F30000A7F25D /* BBToothTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7873171BF5F30000A7F25D /* BBToothTests.m */; };
+		CF7873231BF5F30000A7F25D /* BBToothUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7873221BF5F30000A7F25D /* BBToothUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF7873141BF5F30000A7F25D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF7872F21BF5F30000A7F25D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF7872F91BF5F30000A7F25D;
+			remoteInfo = BBTooth;
+		};
+		CF78731F1BF5F30000A7F25D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF7872F21BF5F30000A7F25D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF7872F91BF5F30000A7F25D;
+			remoteInfo = BBTooth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		156833271C5C60C66855F3B2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		74FEF5D600EED2C8017FA352 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CF7872FA1BF5F30000A7F25D /* BBTooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBTooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7872FE1BF5F30000A7F25D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF7873001BF5F30000A7F25D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF7873011BF5F30000A7F25D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF7873031BF5F30000A7F25D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF7873041BF5F30000A7F25D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF7873071BF5F30000A7F25D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF7873091BF5F30000A7F25D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF78730C1BF5F30000A7F25D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF78730E1BF5F30000A7F25D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF7873131BF5F30000A7F25D /* BBToothTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBToothTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7873171BF5F30000A7F25D /* BBToothTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBToothTests.m; sourceTree = "<group>"; };
+		CF7873191BF5F30000A7F25D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF78731E1BF5F30000A7F25D /* BBToothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBToothUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7873221BF5F30000A7F25D /* BBToothUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBToothUITests.m; sourceTree = "<group>"; };
+		CF7873241BF5F30000A7F25D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF7873311BF5F4C300A7F25D /* BBToothPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBToothPrefixHeader.pch; sourceTree = "<group>"; };
+		FC0F66BD3C5390585FC41C56 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF7872F71BF5F30000A7F25D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C88CAB0C58A0C0984733014 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7873101BF5F30000A7F25D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF78731B1BF5F30000A7F25D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7213254F3F6967ECC40A23C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC0F66BD3C5390585FC41C56 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4077477F3E9FD374C7AE0D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74FEF5D600EED2C8017FA352 /* Pods.debug.xcconfig */,
+				156833271C5C60C66855F3B2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF7872F11BF5F30000A7F25D = {
+			isa = PBXGroup;
+			children = (
+				CF7872FC1BF5F30000A7F25D /* BBTooth */,
+				CF7873161BF5F30000A7F25D /* BBToothTests */,
+				CF7873211BF5F30000A7F25D /* BBToothUITests */,
+				CF7872FB1BF5F30000A7F25D /* Products */,
+				C4077477F3E9FD374C7AE0D6 /* Pods */,
+				B7213254F3F6967ECC40A23C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF7872FB1BF5F30000A7F25D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF7872FA1BF5F30000A7F25D /* BBTooth.app */,
+				CF7873131BF5F30000A7F25D /* BBToothTests.xctest */,
+				CF78731E1BF5F30000A7F25D /* BBToothUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF7872FC1BF5F30000A7F25D /* BBTooth */ = {
+			isa = PBXGroup;
+			children = (
+				CF7873001BF5F30000A7F25D /* AppDelegate.h */,
+				CF7873011BF5F30000A7F25D /* AppDelegate.m */,
+				CF7873031BF5F30000A7F25D /* ViewController.h */,
+				CF7873041BF5F30000A7F25D /* ViewController.m */,
+				CF7873061BF5F30000A7F25D /* Main.storyboard */,
+				CF7873091BF5F30000A7F25D /* Assets.xcassets */,
+				CF78730B1BF5F30000A7F25D /* LaunchScreen.storyboard */,
+				CF78730E1BF5F30000A7F25D /* Info.plist */,
+				CF7872FD1BF5F30000A7F25D /* Supporting Files */,
+			);
+			path = BBTooth;
+			sourceTree = "<group>";
+		};
+		CF7872FD1BF5F30000A7F25D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF7873301BF5F49F00A7F25D /* Resource */,
+				CF7872FE1BF5F30000A7F25D /* main.m */,
+				CF7873311BF5F4C300A7F25D /* BBToothPrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF7873161BF5F30000A7F25D /* BBToothTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF7873171BF5F30000A7F25D /* BBToothTests.m */,
+				CF7873191BF5F30000A7F25D /* Info.plist */,
+			);
+			path = BBToothTests;
+			sourceTree = "<group>";
+		};
+		CF7873211BF5F30000A7F25D /* BBToothUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF7873221BF5F30000A7F25D /* BBToothUITests.m */,
+				CF7873241BF5F30000A7F25D /* Info.plist */,
+			);
+			path = BBToothUITests;
+			sourceTree = "<group>";
+		};
+		CF7873301BF5F49F00A7F25D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF7872F91BF5F30000A7F25D /* BBTooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7873271BF5F30000A7F25D /* Build configuration list for PBXNativeTarget "BBTooth" */;
+			buildPhases = (
+				7CC7F4FEDF13A7389ECCD1AB /* Check Pods Manifest.lock */,
+				CF7872F61BF5F30000A7F25D /* Sources */,
+				CF7872F71BF5F30000A7F25D /* Frameworks */,
+				CF7872F81BF5F30000A7F25D /* Resources */,
+				62B406C8349A03B1917B9877 /* Embed Pods Frameworks */,
+				9A6442C3596B55ED3FCC9496 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBTooth;
+			productName = BBTooth;
+			productReference = CF7872FA1BF5F30000A7F25D /* BBTooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF7873121BF5F30000A7F25D /* BBToothTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF78732A1BF5F30000A7F25D /* Build configuration list for PBXNativeTarget "BBToothTests" */;
+			buildPhases = (
+				CF78730F1BF5F30000A7F25D /* Sources */,
+				CF7873101BF5F30000A7F25D /* Frameworks */,
+				CF7873111BF5F30000A7F25D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF7873151BF5F30000A7F25D /* PBXTargetDependency */,
+			);
+			name = BBToothTests;
+			productName = BBToothTests;
+			productReference = CF7873131BF5F30000A7F25D /* BBToothTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF78731D1BF5F30000A7F25D /* BBToothUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF78732D1BF5F30000A7F25D /* Build configuration list for PBXNativeTarget "BBToothUITests" */;
+			buildPhases = (
+				CF78731A1BF5F30000A7F25D /* Sources */,
+				CF78731B1BF5F30000A7F25D /* Frameworks */,
+				CF78731C1BF5F30000A7F25D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF7873201BF5F30000A7F25D /* PBXTargetDependency */,
+			);
+			name = BBToothUITests;
+			productName = BBToothUITests;
+			productReference = CF78731E1BF5F30000A7F25D /* BBToothUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF7872F21BF5F30000A7F25D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "刘瑞刚";
+				TargetAttributes = {
+					CF7872F91BF5F30000A7F25D = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CF7873121BF5F30000A7F25D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CF7872F91BF5F30000A7F25D;
+					};
+					CF78731D1BF5F30000A7F25D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CF7872F91BF5F30000A7F25D;
+					};
+				};
+			};
+			buildConfigurationList = CF7872F51BF5F30000A7F25D /* Build configuration list for PBXProject "BBTooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF7872F11BF5F30000A7F25D;
+			productRefGroup = CF7872FB1BF5F30000A7F25D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF7872F91BF5F30000A7F25D /* BBTooth */,
+				CF7873121BF5F30000A7F25D /* BBToothTests */,
+				CF78731D1BF5F30000A7F25D /* BBToothUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF7872F81BF5F30000A7F25D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF78730D1BF5F30000A7F25D /* LaunchScreen.storyboard in Resources */,
+				CF78730A1BF5F30000A7F25D /* Assets.xcassets in Resources */,
+				CF7873081BF5F30000A7F25D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7873111BF5F30000A7F25D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF78731C1BF5F30000A7F25D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62B406C8349A03B1917B9877 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CC7F4FEDF13A7389ECCD1AB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A6442C3596B55ED3FCC9496 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF7872F61BF5F30000A7F25D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7873051BF5F30000A7F25D /* ViewController.m in Sources */,
+				CF7873021BF5F30000A7F25D /* AppDelegate.m in Sources */,
+				CF7872FF1BF5F30000A7F25D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF78730F1BF5F30000A7F25D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7873181BF5F30000A7F25D /* BBToothTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF78731A1BF5F30000A7F25D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7873231BF5F30000A7F25D /* BBToothUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF7873151BF5F30000A7F25D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF7872F91BF5F30000A7F25D /* BBTooth */;
+			targetProxy = CF7873141BF5F30000A7F25D /* PBXContainerItemProxy */;
+		};
+		CF7873201BF5F30000A7F25D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF7872F91BF5F30000A7F25D /* BBTooth */;
+			targetProxy = CF78731F1BF5F30000A7F25D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF7873061BF5F30000A7F25D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7873071BF5F30000A7F25D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF78730B1BF5F30000A7F25D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF78730C1BF5F30000A7F25D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF7873251BF5F30000A7F25D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF7873261BF5F30000A7F25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF7873281BF5F30000A7F25D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74FEF5D600EED2C8017FA352 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/liuruigang/work/OC/BBTooth/BBTooth/BBToothPrefixHeader.pch;
+				INFOPLIST_FILE = BBTooth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LRG.BBTooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF7873291BF5F30000A7F25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156833271C5C60C66855F3B2 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/liuruigang/work/OC/BBTooth/BBTooth/BBToothPrefixHeader.pch;
+				INFOPLIST_FILE = BBTooth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LRG.BBTooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF78732B1BF5F30000A7F25D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BBToothTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LRG.BBToothTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BBTooth.app/BBTooth";
+			};
+			name = Debug;
+		};
+		CF78732C1BF5F30000A7F25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BBToothTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LRG.BBToothTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BBTooth.app/BBTooth";
+			};
+			name = Release;
+		};
+		CF78732E1BF5F30000A7F25D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BBToothUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LRG.BBToothUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BBTooth;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CF78732F1BF5F30000A7F25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BBToothUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LRG.BBToothUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BBTooth;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF7872F51BF5F30000A7F25D /* Build configuration list for PBXProject "BBTooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7873251BF5F30000A7F25D /* Debug */,
+				CF7873261BF5F30000A7F25D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF7873271BF5F30000A7F25D /* Build configuration list for PBXNativeTarget "BBTooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7873281BF5F30000A7F25D /* Debug */,
+				CF7873291BF5F30000A7F25D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF78732A1BF5F30000A7F25D /* Build configuration list for PBXNativeTarget "BBToothTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF78732B1BF5F30000A7F25D /* Debug */,
+				CF78732C1BF5F30000A7F25D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF78732D1BF5F30000A7F25D /* Build configuration list for PBXNativeTarget "BBToothUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF78732E1BF5F30000A7F25D /* Debug */,
+				CF78732F1BF5F30000A7F25D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF7872F21BF5F30000A7F25D /* Project object */;
+}
